@@ -50,30 +50,30 @@ class AppThemeData {
       ),
     ),
     inputDecorationTheme: InputDecorationTheme(
-      fillColor: AppColorSchemes.lightColorScheme.shadow,
+      fillColor: AppColorSchemes.lightColorScheme.outline.withOpacity(0.01),
       isDense: true,
       filled: true,
       hintStyle: AppTextThemes.lightTextTheme.bodyMedium?.copyWith(
-        color: AppColorSchemes.lightColorScheme.outlineVariant,
+        color: AppColorSchemes.lightColorScheme.outline.withOpacity(0.6),
       ),
       border: OutlineInputBorder(
         borderRadius: BorderRadius.circular(9),
         borderSide: BorderSide(
-          color: AppColorSchemes.lightColorScheme.outline,
+          color: AppColorSchemes.lightColorScheme.outline.withOpacity(0.2),
           width: 0.85,
         ),
       ),
       enabledBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(9),
         borderSide: BorderSide(
-          color: AppColorSchemes.lightColorScheme.outline,
+          color: AppColorSchemes.lightColorScheme.outline.withOpacity(0.2),
           width: 0.85,
         ),
       ),
       disabledBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(9),
         borderSide: BorderSide(
-          color: AppColorSchemes.lightColorScheme.outline,
+          color: AppColorSchemes.lightColorScheme.outline.withOpacity(0.2),
           width: 0.85,
         ),
       ),

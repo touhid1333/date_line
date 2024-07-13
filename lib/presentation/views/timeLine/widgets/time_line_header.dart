@@ -1,3 +1,4 @@
+import 'package:date_line/presentation/views/addTimeLine/add_time_line_view.dart';
 import 'package:date_line/utils/common/widgets/custom_button.dart';
 import 'package:date_line/utils/extensions/build_context_extensions.dart';
 import 'package:date_line/utils/extensions/date_time_extensions.dart';
@@ -21,7 +22,14 @@ class TimeLineHeader extends StatelessWidget {
         CustomButton(
           padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
           borderRadius: 24,
-          onTap: () {},
+          onTap: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => const AddTimeLineView(),
+              ),
+            );
+          },
           child: Text(
             "নতুন যোগ করুন",
             style: theme.textTheme.titleSmall?.copyWith(
