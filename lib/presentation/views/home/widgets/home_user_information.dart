@@ -12,7 +12,7 @@ class HomeUserInformation extends StatelessWidget {
     final theme = context.theme;
     return Card(
       shape: RoundedRectangleBorder(
-        side: BorderSide(color: theme.colorScheme.outline.withOpacity(0.2), width: 1),
+        side: BorderSide(color: theme.colorScheme.outline.withOpacity(0.1), width: 1),
         borderRadius: BorderRadius.circular(9),
       ),
       elevation: 1,

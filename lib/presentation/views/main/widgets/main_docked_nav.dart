@@ -20,9 +20,10 @@ class MainDockedNav extends StatelessWidget {
           ),
         ],
         gradient: LinearGradient(
-            colors: [theme.colorScheme.secondary, theme.colorScheme.primary],
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight),
+          colors: [theme.colorScheme.secondary, theme.colorScheme.primary],
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+        ),
       ),
       child: FloatingActionButton(
         backgroundColor: Colors.transparent,

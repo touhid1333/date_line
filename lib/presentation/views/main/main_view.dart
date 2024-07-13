@@ -28,6 +28,13 @@ class _MainViewState extends State<MainView> {
     const ProfileView(),
   ];
 
+  final viewsTitles = [
+    "Data Line",
+    "সময়রেখা",
+    "ইতিবৃত্ত",
+    "পরিলেখ",
+  ];
+
   @override
   void initState() {
     pageController = PageController(
@@ -46,9 +53,10 @@ class _MainViewState extends State<MainView> {
         // -----------------------------------
         // AppBar
         // -----------------------------------
-        appBar: const CustomAppBar(
-          title: "Data Line",
-          centerTitle: false,
+        appBar: CustomAppBar(
+          title: viewsTitles[commonProvider.bottomNavIndex],
+          centerTitle: commonProvider.bottomNavIndex == 0 ? false : true,
+          showAppLogo: commonProvider.bottomNavIndex == 0 ? true : false,
         ),
         drawer: const Drawer(),
 

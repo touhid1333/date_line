@@ -9,7 +9,7 @@ class HomeRepoImpl extends HomeRepo {
   Future<UserModel> fetchUserInformation() async {
     await Future.delayed(
       const Duration(
-        seconds: 2,
+        seconds: 1,
       ),
     );
     return UserModel.fromJson(userDemoDataJson);

@@ -43,7 +43,10 @@ class AppThemeData {
         ),
         backgroundColor: const WidgetStatePropertyAll(Colors.transparent),
         shadowColor: const WidgetStatePropertyAll(Colors.transparent),
-        textStyle: WidgetStatePropertyAll(AppTextThemes.lightTextTheme.headlineMedium),
+        textStyle: WidgetStatePropertyAll(
+          AppTextThemes.lightTextTheme.headlineMedium
+              ?.copyWith(color: AppColorSchemes.lightColorScheme.onPrimary),
+        ),
       ),
     ),
     inputDecorationTheme: InputDecorationTheme(
@@ -122,7 +125,10 @@ class AppThemeData {
         ),
         backgroundColor: const WidgetStatePropertyAll(Colors.transparent),
         shadowColor: const WidgetStatePropertyAll(Colors.transparent),
-        textStyle: WidgetStatePropertyAll(AppTextThemes.darkTextTheme.headlineMedium),
+        textStyle: WidgetStatePropertyAll(
+          AppTextThemes.lightTextTheme.headlineMedium
+              ?.copyWith(color: AppColorSchemes.darkColorScheme.onPrimary),
+        ),
       ),
     ),
     inputDecorationTheme: InputDecorationTheme(
