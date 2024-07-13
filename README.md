@@ -1,16 +1,7 @@
-# date_line
+# Date Line
 
-This project "Date Line" handles my daily tasks. I can get aware about the schedules an so on.
+This project "Date Line" handles daily schedules. User can track task's duration, how much time left an so on.
 
-## Getting Started
+## Structure
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

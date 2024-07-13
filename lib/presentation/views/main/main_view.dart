@@ -29,7 +29,7 @@ class _MainViewState extends State<MainView> {
   ];
 
   final viewsTitles = [
-    "Data Line",
+    "Date Line",
     "সময়রেখা",
     "ইতিবৃত্ত",
     "পরিলেখ",
