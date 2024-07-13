@@ -1,0 +1,54 @@
+name: date_line
+description: "This project \"Date Line\" handles my daily tasks. I can get aware about the schedules an so on."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  animated_bottom_navigation_bar: ^1.3.3
+  json_annotation: ^4.9.0
+  provider: ^6.1.2
+  get_it: ^7.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  json_serializable: ^6.8.0
+  build_runner: ^2.4.11
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+
+  fonts:
+    - family: NotoSerif
+      fonts:
+        - asset: assets/fonts/notoSerif/noto_serif_bold.ttf
+          weight: 700
+        - asset: assets/fonts/notoSerif/noto_serif_regular.ttf
+          weight: 400
+        - asset: assets/fonts/notoSerif/noto_serif_medium.ttf
+          weight: 500
+        - asset: assets/fonts/notoSerif/noto_serif_semi_bold.ttf
+          weight: 600
+    - family: NotoSerifBengali
+      fonts:
+        - asset: assets/fonts/notoSerifBengali/noto_serif_bengali_bold.ttf
+          weight: 700
+        - asset: assets/fonts/notoSerifBengali/noto_serif_bengali_regular.ttf
+          weight: 400
+        - asset: assets/fonts/notoSerifBengali/noto_serif_bengali_medium.ttf
+          weight: 500
+        - asset: assets/fonts/notoSerifBengali/noto_serif_bengali_semi_bold.ttf
+          weight: 600
